@@ -1,5 +1,6 @@
 **Autor:** Gustavo da Silva Faria, a108575
-<img width="1032" height="808" alt="pfp" src="https://github.com/user-attachments/assets/bf9861a2-9d1d-425b-a42d-b3e486f22931" />
+
+<img width="344" height="269" alt="pfp" src="https://github.com/user-attachments/assets/bf9861a2-9d1d-425b-a42d-b3e486f22931" />
 
 **Pergunta:** Encontrar uma expressão regular que represente strings binárias que não contém a substring "011"
 
