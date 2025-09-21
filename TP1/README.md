@@ -4,6 +4,7 @@
 **Pergunta:** Encontrar uma expressão regular que represente strings binárias que não contém a substring "011"
 
 **Resposta:** ^((0*|(01)?)\*|(1+(0\*|01)*))$
+
 <img width="921" height="653" alt="image" src="https://github.com/user-attachments/assets/0390e68e-a9cb-47f2-9eed-3b1ff94cb1ef" />
 
 **Links:** https://regex101.com/
