@@ -103,7 +103,7 @@ def subs(texto):
             return f'{text}<img src="{t.group("link")}" alt="{t.group("pagina")}"/>'
 
     t6=re.sub(r'(?P<text>.*)\[(?P<pagina>.*)\]\((?P<link>.*)\)', link_image, t5)
-    print("\nResultado final:\n", t6)
+    print(t6)
 
 subs(texto)
 ```
