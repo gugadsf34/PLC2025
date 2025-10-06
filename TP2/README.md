@@ -75,7 +75,7 @@ Exemplo
 
 
 def subs(texto):
-    # cabeçalho
+    #cabeçalho
     def hashtag(t):
         qt=len(t.group(1))
         return f'<h{qt}>'+t.group("texto")+f'</h{qt}>'
