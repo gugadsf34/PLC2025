@@ -73,7 +73,6 @@ Como se vê na imagem seguinte: ![imagem dum coelho](http://www.coellho.com) ...
 Exemplo
 """
 
-#tirar ?P<> para os q sao inutil
 
 def subs(texto):
     # cabeçalho
