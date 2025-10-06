@@ -55,6 +55,8 @@ Out: `Como se vê na imagem seguinte: <img src="http://www.coellho.com" alt="ima
 
 
 # **Resposta**
+
+## **Código:**
 ```
 import re
 
@@ -108,7 +110,7 @@ def subs(texto):
 subs(texto)
 ```
 
-##Output:
+## **Output:**
 ```
 <h1>Exemplo</h1>
 <h2>Exemplo</h2>
