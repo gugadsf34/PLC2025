@@ -53,7 +53,7 @@ In: Como se vê na imagem seguinte: `![imagem dum coelho](http://www.coellho.com
 Out: `Como se vê na imagem seguinte: <img src="http://www.coellho.com" alt="imagem dum coelho"/> ...`
 
 # **Resposta**
-
+```
 import re
 
 
@@ -105,3 +105,4 @@ def subs(texto):
     print("\nResultado final:\n", t6)
 
 subs(texto)
+```
