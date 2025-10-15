@@ -21,9 +21,25 @@ select ?nome ?desc where {
 
 # Resposta
 
+[analisador](analisador.py)
+[tokens](tokens.json)
+
+## Input
+```
+# DBPedia: obras de Chuck Berry
+
+select ?nome ?desc where {
+?s a dbo:MusicalArtist.
+?s foaf:name "Chuck Berry"@en .
+?w dbo:artist ?s.
+?w foaf:name ?nome.
+?w dbo:abstract ?desc
+} LIMIT 1000
+```
 
 
 ## Output
+```
 ('COMMENT', '# DBPedia: obras de Chuck Berry', 1, (0, 31))
 ('NEWLINE', '\n', 1, (31, 32))
 ('NEWLINE', '\n', 1, (32, 33))
@@ -61,4 +77,4 @@ select ?nome ?desc where {
 ('IDEN', 'LIMIT', 1, (188, 193))
 ('NUM', '1000', 1, (194, 198))
 ('NEWLINE', '\n', 1, (198, 199))
-
+```
