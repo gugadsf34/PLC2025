@@ -22,6 +22,7 @@ select ?nome ?desc where {
 # Resposta
 
 [analisador](analisador.py)
+
 [tokens](tokens.json)
 
 ## Input
