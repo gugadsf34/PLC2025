@@ -60,6 +60,6 @@ maq: Até à próxima
 
 
 
-[codigo](codigo.py)
+[codigo](TPC4.py)
 
 [stock](stock.json)
