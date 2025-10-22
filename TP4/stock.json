@@ -1,0 +1,68 @@
+[
+  {
+    "cod": "A22",
+    "nome": "água 0.33L",
+    "quant": 9,
+    "preco": 0.5
+  },
+  {
+    "cod": "A23",
+    "nome": "água 0.5L",
+    "quant": 8,
+    "preco": 0.7
+  },
+  {
+    "cod": "A24",
+    "nome": "água 1.5L",
+    "quant": 5,
+    "preco": 1.0
+  },
+  {
+    "cod": "B11",
+    "nome": "coca cola",
+    "quant": 6,
+    "preco": 1.0
+  },
+  {
+    "cod": "B12",
+    "nome": "fanta",
+    "quant": 4,
+    "preco": 1
+  },
+  {
+    "cod": "B13",
+    "nome": "ice tea",
+    "quant": 2,
+    "preco": 0.9
+  },
+  {
+    "cod": "C16",
+    "nome": "kit-kat",
+    "quant": 3,
+    "preco": 0.3
+  },
+  {
+    "cod": "C17",
+    "nome": "snickers",
+    "quant": 0,
+    "preco": 0.4
+  },
+  {
+    "cod": "D3",
+    "nome": "cookies",
+    "quant": 2,
+    "preco": 1.2
+  },
+  {
+    "cod": "D4",
+    "nome": "batatas fritas",
+    "quant": 3,
+    "preco": 1.0
+  },
+  {
+    "cod": "D5",
+    "nome": "doritos",
+    "quant": 7,
+    "preco": 1.2
+  }
+]
