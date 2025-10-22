@@ -71,7 +71,7 @@ def main():
                         saldo-=preco
                         produto['quant']-=1
                         save_stock(stock)
-                        print(f"maq: Pode retirar o produto dispensado {produto}")
+                        print(f"maq: Pode retirar o produto dispensado {produto['nome']}")
                         listar_saldo(saldo)
                     else:
                         print(f"maq: Saldo insufuciente para satisfazer o seu pedido")
