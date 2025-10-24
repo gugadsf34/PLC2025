@@ -36,6 +36,15 @@ def listar_saldo(saldo):
     saldoc=saldo%100
     print(f"maq: Saldo = {f'{saldoe}e' if saldoe > 0 else ''}{saldoc:02d}c.")
 
+def troco(saldo):
+    troco={} 
+    for valor, moeda in MOEDAS:
+        if saldo >= valor:
+            quantidade = saldo // valor
+            troco[moeda] = quantidade
+            saldo %= valor
+    return troco
+
 def main():
     stock=load_stock()
     print(f"maq: {date.today().isoformat()}, Stock carregado, Estado atualizado.")
@@ -81,10 +90,16 @@ def main():
                 print(f"maq: Produto {produto} inexistente.")
         elif comando=="SAIR":
             if saldo>0:
-                print(f"maq: Pode retirar o troco: {saldo//100}e{saldo%100}c.")
-                print("maq: Até à próxima")
+                troco_dar = troco(saldo)
+                troco_str_list = []
+                for nome_moeda, quant in troco_dar.items():
+                    troco_str_list.append(f"{quant}x {nome_moeda}")
+                
+                print(f"maq: Pode retirar o troco: {', '.join(troco_str_list)}.")
+            
+            print("maq: Até à próxima")
+            save_stock(stock)
             break
 
 if __name__=="__main__":
     main()
-    
